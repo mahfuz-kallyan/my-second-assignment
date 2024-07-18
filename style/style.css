@@ -30,7 +30,7 @@ body{
     border-radius: 40px;
     font-size: 1.25rem;
     align-items: center;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255, 0.1)
 }
 .bar-logo{
     display: none;
@@ -137,10 +137,8 @@ body{
 /* habit sections */
 .habit-section{
     width: 1440px;
-    height: 4650px;
-    border: 2px solid red;
+    height: 1500px;
     margin: 0 auto;
-    margin-top: 80px;
     text-align: center;
     background-color: black;
 }
@@ -157,6 +155,8 @@ body{
     width: 1044px;
     height: 452px;
     margin: 0 auto;
+    padding-top: 200px;
+    margin-bottom: 300px;
 }
 .habit-img{
     display: flex;
@@ -214,6 +214,55 @@ body{
 }
 .habit-card-4 p{
     color: rgb(255, 255, 255, 0.5);
+}
+/* Run Extra */
+.run-extra{
+    width: 930px;
+    height: 371px;
+    margin-left: 190px;
+    margin-right: 190px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    padding-right: 32px;
+    padding-left: 54px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 18px;
+}
+.text-content{
+    width: 443px;
+    height: 290px;
+}
+.text-content h1{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+}
+.text-content p{
+    color: rgb(255, 255, 255, 0.5);
+}
+.join-button{
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    margin-top: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.10rem;
+    font-weight: 600;
+}
+.running-img{
+    width: 366px;
+    height: 312px;
+    margin-top: 90px;
+}
+.running-img img{
+    width: 100%;
+    border-radius: 18px;
 }
 
 
