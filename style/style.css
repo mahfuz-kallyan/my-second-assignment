@@ -82,7 +82,9 @@ body {
 }
 
 .style {
-    font-family: "Style Script", cursive;
+    font-family:'Miama', sans-serif;
+    
+                                                
 }
 
 .card-1 {
@@ -169,7 +171,7 @@ body {
 /* habit sections */
 .habit-section {
     width: 1440px;
-    height:1200px;
+    height:700px;
     margin: 0 auto;
     text-align: center;
     background-color: black;
@@ -270,6 +272,12 @@ body {
 }
 
 /* Run Extra */
+.run-section{
+    width: 1440px;
+    height: 500px;
+    background-color: black;
+    margin: 0 auto;
+}
 .run-extra {
     width: 1060px;
     height: 371px;
@@ -374,8 +382,7 @@ body {
         width: 135px;
         height: 74px;
         top: 50%;
-        left:172%;
-
+        left: 178px;
     }
     .card-2 h1{
         margin-top: 5px;
@@ -389,7 +396,7 @@ body {
     }
     .habit-section{
         width:100%;
-        height:100%;
+        height:1400px;
         
     }
     .habit-content{
@@ -419,28 +426,26 @@ body {
     .habit-card-2 h3{
         margin-top: 7px;
     }
+    .run-section{
+        width: 100%;
+        height: 100%;
+        margin-top: -1px;
+        
+    }
     .run-extra{
-        margin-top: 1000px;
         flex-direction: column;
-        width:100%;
-        height:550px;
-        margin-left: 0;
-        
-    }
-    .text-content{
-        width: 287px;
-        
-    }
-    .text-content h1{
-        font-size: 2rem;
-    }
-    .join-button{
-        margin-top: 5px;
-        margin-bottom: -10px;
+        width: 300px;
+        height: 650px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 8px;
     }
     .running-img{
         width: 287px;
         height: 170px;
-        margin-right: 15px;
-        margin-bottom: 10px;
     }
+    .text-content{
+        width: 287px;
+        height: 264px;
+    }
+    
