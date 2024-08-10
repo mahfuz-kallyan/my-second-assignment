@@ -450,6 +450,74 @@ body {
     border: none;
     padding: 10px;
 }
+/* Our team section */
+.our-team{
+    width: 1060px;
+    height: 782px;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-team h1{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: 20px;
+}
+.our-team p{
+    margin-top: 15px;
+    color: rgb(255, 255, 255, 0.5);
+}
+.team-members{
+    width: 1058px;
+    height: 604px;
+    background-color: rgb(255, 255, 255, 0.1);
+}
+.row-1 img{
+    width: 326px;
+    height: 272px;
+    border-radius: 10px;
+}
+.row-2 img{
+    width: 326px;
+    height: 272px;
+    border-radius: 10px;
+}
+.row-1, .row-2 h3{
+    color: rgb(255, 255, 255);
+}
+.row-1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 35px;
+}
+.row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.img-card{
+    position: relative;
+}
+.row-1 h3{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.row-1 p{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+}
+.row-2 h3{
+    position: absolute;
+    top: 75%;
+    left: 5%;
+}
+.row-2 p{
+    position: absolute;
+    top: 83%;
+    left: 5%;
+}
 
 
 /* Responsive for mobile */
