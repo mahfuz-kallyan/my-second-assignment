@@ -334,7 +334,6 @@ body {
     width: 1440px;
     height: 700px;
     margin: 0 auto;
-    border: 2px solid red;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -361,14 +360,21 @@ body {
 .calculator-chart{
     width: 1439px;
     height: 487px;
-    border: 2px solid gold;
     background-color: rgb(34, 34, 34);
     margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
 }
 .chart{
-
-
+   width: 310px;
+   height: 386px;
+}
+.chart h2{
+    font-size: 1.75rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
 }
 .chart table{
     border-collapse: collapse;
@@ -376,9 +382,69 @@ body {
     height: 216px;
     margin-top: 30px;
 }
+.chart thead{
+    color: rgb(255, 255, 255);
+}
+.chart tbody{
+    color:rgb(255, 255, 255, 0.5) ;
+}
 .chart table td{
     border: 2px solid rgba(255, 255, 255, 0.1);
     padding: 5px 15px;
+}
+.calculate-bmi{
+    width: 577px;
+    height: 386px;
+}
+.calculate-bmi h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.75rem;
+    font-weight: 900;
+}
+.calculate-bmi p{
+    color: rgb(255, 255, 255, 0.5);
+    margin-bottom: 15px;
+}
+
+.input-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.input-2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.input-1 input{
+    width: 282px;
+    height: 48px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+}
+.input-2 input{
+    width: 282px;
+    height: 48px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+}
+.input-select{
+    width: 282px;
+    height: 48px;
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
+}
+
+.factor{
+    width: 575px;
+    height:48px ;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255, 0.5);
+    background-color: rgb(255, 255, 255, 0.1);
+    border: none;
 }
 
 
