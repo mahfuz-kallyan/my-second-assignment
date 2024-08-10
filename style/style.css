@@ -2,6 +2,7 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: black
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
@@ -328,6 +329,57 @@ body {
     width: 100%;
     border-radius: 18px;
 }
+/* Calculator section */
+.calculator{
+    width: 1440px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.bmi-content{
+    width: 671px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.bmi-content h2{
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 20px;
+    color: white;
+}
+.bmi-content{
+    color: rgba(255, 255, 255, 0.5);
+}
+.calculator-chart{
+    width: 1439px;
+    height: 487px;
+    border: 2px solid gold;
+    background-color: rgb(34, 34, 34);
+    margin-top: 100px;
+
+}
+.chart{
+
+
+}
+.chart table{
+    border-collapse: collapse;
+    width: 310px;
+    height: 216px;
+    margin-top: 30px;
+}
+.chart table td{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    padding: 5px 15px;
+}
 
 
 /* Responsive for mobile */
@@ -342,24 +394,25 @@ body {
         display: block;
     }
     .banner-section{
-        width: 393px;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
     } 
     .banner{
         flex-direction: column;
-        width: 353px;
+        width:353px;
         height: auto;
     }
     .banner-content{
-        width: 352px;
+        width: 100%;
         height: auto;
     }
     .banner-title{
-        font-size: 2.50rem;
+        font-size: 2.5rem;
         font-weight: 900;
         width: 285px;
         height: auto;
@@ -370,11 +423,15 @@ body {
     .banner-img{
         width: 353px;
     }
+    .banner-img img{
+        width: 100%;
+    }
+    
     .card-1{
         width: 155px;
         height: 72px;
-        left: 8px;
-        top: 75%;
+        left: 6px;
+        top: 70%;
     }
     .card-2{
         width: 145px;
@@ -383,7 +440,7 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        left: 183px;
+        left: 185px;
         top: 45%;
     }
     
@@ -392,12 +449,12 @@ body {
         height: 54px;
     }
     .habit-section{
-        width: 393px;
+        width: auto;
         height: auto;
         background-color: black;
     }
     .change-habit{
-        width: 338px;
+        width: 316px;
     }
     .habit-cards{
         flex-direction: column;
@@ -409,11 +466,11 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 353px;
+        width: 340px;
         height: auto;
     }
     .text-content{
-        width: 287px;
+        width: 100%;
         height: 264px;
     }
     .text-content h1{
@@ -421,16 +478,12 @@ body {
         font-weight: 900;
     }
     .running-img{
-        width: 287px;
-        height: 170px;
+        width: 100%;
+        height: 100%;
     }
-    /* .run-extra{
-        width: 353px;
-        height: auto;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }  */
+    .join-button{
+        width: 100%;
+        height: 54px;
+    }
    
 }
