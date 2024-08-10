@@ -422,12 +422,14 @@ body {
     height: 48px;
     background-color: rgb(255, 255, 255, 0.1);
     border: none;
+    padding: 10px;
 }
 .input-2 input{
     width: 282px;
     height: 48px;
     background-color: rgb(255, 255, 255, 0.1);
     border: none;
+    padding: 10px;
 }
 .input-select{
     width: 282px;
@@ -435,6 +437,7 @@ body {
     color: rgb(255, 255, 255, 0.5);
     background-color: rgb(255, 255, 255, 0.1);
     border: none;
+    padding: 10px;
 }
 
 .factor{
@@ -445,6 +448,7 @@ body {
     color: rgb(255, 255, 255, 0.5);
     background-color: rgb(255, 255, 255, 0.1);
     border: none;
+    padding: 10px;
 }
 
 
