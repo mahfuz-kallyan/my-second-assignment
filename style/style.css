@@ -43,6 +43,7 @@ body {
     font-size: 1.25rem;
     align-items: center;
     border: 1px solid rgb(255, 255, 255, 0.1);
+    cursor: pointer;
 }
 
 .bar-logo {
@@ -56,6 +57,7 @@ body {
     border-radius: 40px;
     font-size: 1.25rem;
     border: none;
+    cursor: pointer;
 }
 
 .company-name {
@@ -348,11 +350,12 @@ body {
     flex-direction: column;
     justify-content: flex-start;
 }
-.bmi-content h2{
-    font-size: 2rem;
+.bmi-content h1{
+    font-size: 3rem;
     font-weight: 900;
     margin-top: 20px;
     color: white;
+    margin-bottom: 10px;
 }
 .bmi-content{
     color: rgba(255, 255, 255, 0.5);
@@ -449,6 +452,16 @@ body {
     background-color: rgb(255, 255, 255, 0.1);
     border: none;
     padding: 10px;
+}
+.input-button{
+    width: 224px;
+    height: 54px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 42px;
+    color: rgb(255, 255, 255);
+    font-size: 1.10rem;
+    font-weight: 600;
+    border: none;
 }
 /* Our team section */
 .our-team{
@@ -623,5 +636,101 @@ body {
         width: 100%;
         height: 54px;
     }
-   
+    .calculator{
+        width: 100%;
+        height: auto;
+    }
+    .bmi-content{
+        width: 90%;
+    }
+    .bmi-content h1{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    .bmi-content{
+        width: 80%;
+    }
+    .calculator-chart{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .chart{
+        width: 95%;
+        margin-top: 20px;
+    }
+    .chart table{
+        width: 100%;
+    }
+    .calculate-bmi{
+        width: 95%;
+        height: auto;
+
+    }
+    .input-content{
+        width: 100%;
+        text-align: start;
+    }
+    .inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .input-1{
+        display: flex;
+        gap: 10px;
+    }
+    .input-1 input{
+        width: 100%;  
+    }
+    .input-2{
+        display: flex;
+        gap: 10px;
+    }
+    .input-2 input{
+        width: 100%;  
+    }
+    .input-select{
+        width:173px;
+    } 
+    .factor{
+        width: 100%;
+    }
+    .our-team{
+        width: 100%;
+        height: auto;
+    }
+    .team-members{
+       width: 100%;
+       height: auto;
+    }
+    .row-1{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .row-2{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .row-1 h3{
+        top: 75%;
+        left: 15%;
+    }
+    .row-1 p{
+        top: 78%;
+        left: 15%;
+    }
+    .row-2 h3{
+        top: 75%;
+        left: 15%;
+    }
+    .row-2 p{
+        top: 78%;
+        left: 15%;
+    }
+    .img-card{
+        width: 100%;
+    }
 }
