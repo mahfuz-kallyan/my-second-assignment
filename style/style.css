@@ -173,83 +173,6 @@ body {
     height: 580px;
 }
 
-/* Unique section */
-.unique-section{
-    width: 1440px;
-    height: 650px;
-    margin: 0 auto;
-}
-.ebooks-container{
-    width: 1350px;
-    height: 640px;
-    margin: 0 auto;
-}
-.ebooks-content{
-    width: 1100px;
-    height: 150px;
-}
-.ebooks-content h1{
-    font-size: 3rem;
-    font-weight: 800;
-    color: rgb(255, 255, 255);
-    margin: 17px auto;
-}
-.ebooks-content p{
-    color: rgb(255, 255, 255, 0.5);
-}
-.ebooks{
-    width: 1345px;
-    height: 450px;
-    margin-top: 30px;
-}
-.ebooks-row-1{
-    display: flex;
-    justify-content: space-between;
-}
-.ebooks-row-2{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 40px
-}
-.ebooks-card{
-    width: 630px;
-    height:200px;
-    display: flex;
-    gap: 35px;
-    background-color: rgb(255, 255, 255, 0.1);
-    border-radius: 20px;
-}
-.ebooks-card img{
-    width: 200px;
-    height: 198px;
-}
-.card-content{
-    width: 300px;
-    height: 200px;
-}
-.card-content p{
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: rgb(230, 83, 60);
-    margin-top: 5px;
-}
-.card-content h3{
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: rgb(255, 255, 255, 0.5);
-    margin: 10px auto;
-}
-.card-button{
-    width: 200px;
-    height: 45px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(230, 83, 60);
-    font-size: 1.25rem;
-    font-weight: 700;
-    border-radius: 50px;
-    border: none;
-}
-
 /* habit sections */
 
 .habit-section {
@@ -410,7 +333,88 @@ body {
     width: 100%;
     border-radius: 18px;
 }
+
+
+/* Unique section */
+
+.unique-section{
+    width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+}
+.ebooks-container{
+    width: 1350px;
+    height: 640px;
+    margin: 0 auto;
+}
+.ebooks-content{
+    width: 1100px;
+    height: 150px;
+}
+.ebooks-content h1{
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    margin: 17px auto;
+}
+.ebooks-content p{
+    color: rgb(255, 255, 255, 0.5);
+}
+.ebooks{
+    width: 1345px;
+    height: 450px;
+    margin-top: 30px;
+}
+.ebooks-row-1{
+    display: flex;
+    justify-content: space-between;
+}
+.ebooks-row-2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px
+}
+.ebooks-card{
+    width: 630px;
+    height:200px;
+    display: flex;
+    gap: 35px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 20px;
+}
+.ebooks-card img{
+    width: 200px;
+    height: 198px;
+}
+.card-content{
+    width: 300px;
+    height: 200px;
+}
+.card-content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(230, 83, 60);
+    margin-top: 5px;
+}
+.card-content h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255, 0.5);
+    margin: 10px auto;
+}
+.card-button{
+    width: 200px;
+    height: 45px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+}
+
 /* Calculator section */
+
 .calculator{
     width: 1440px;
     height: 700px;
@@ -542,7 +546,9 @@ body {
     font-weight: 600;
     border: none;
 }
+
 /* Our team section */
+
 .our-team{
     width: 1060px;
     height: 782px;
@@ -685,6 +691,9 @@ body {
 
 /* Responsive for mobile */
 @media screen and (max-width:576px){
+
+    /* banner section */
+
     .nav-bar{
         width: 90%;
     }
@@ -696,7 +705,7 @@ body {
     }
     .banner-section{
         width: 100%;
-        height: 100%;
+        height: 1150px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -723,7 +732,7 @@ body {
         width: 274px;
     }
     .banner-img{
-        width: 98vw;
+        width: 90vw;
     }
     .banner-img img{
         width: 100%;
@@ -750,13 +759,19 @@ body {
         width: 169px;
         height: 54px;
     }
+
+    /* habit section */
+
     .habit-section{
-        width: auto;
+        width: 100%;
         height: auto;
         background-color: black;
+        margin: 0 auto;
     }
     .change-habit{
-        width: 316px;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
     }
     .habit-cards{
         flex-direction: column;
@@ -764,11 +779,11 @@ body {
         align-items: center;
     }
     .run-extra{
-        margin-top: 1130px;
+        /* margin-top: 1130px; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 340px;
+        width: 90%;
         height: auto;
     }
     .text-content{
@@ -787,6 +802,58 @@ body {
         width: 100%;
         height: 54px;
     }
+
+    /* unique section */
+
+    .unique-section{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .ebooks-container{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .ebooks-content{
+        width: 80%;
+        height: auto;
+    }
+    .ebooks{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .ebooks-card{
+        width: 100%;
+        height: auto;
+    }
+    .ebooks-card img{
+        width: 90%;
+    }
+    .card-content{
+        width: 100%;
+        height: auto;
+    }
+    .card-button{
+        width: 100%;
+    }
+    .ebooks-row-1{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .ebooks-row-2{
+        flex-direction: column;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+
+    /* calculator section */
+
     .calculator{
         width: 100%;
         height: auto;
@@ -849,9 +916,13 @@ body {
     .factor{
         width: 100%;
     }
+
+    /* our team section */
+
     .our-team{
         width: 100%;
         height: auto;
+        margin: 0 auto;
     }
     .team-members{
        width: 100%;
@@ -883,5 +954,44 @@ body {
     }
     .img-card{
         width: 100%;
+    }
+    .img-card img{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Footer section */
+
+    .footer-section{
+        width: 100%;
+        height: auto;
+    }
+    .footer{
+        width: 100%;
+        height: auto;
+    }
+    .footer-content{
+        flex-direction: column;
+        width: 90%;
+        height: auto;
+    }
+    .content{
+        width: 90%;
+        height: auto;
+        margin-top: 40px;
+    }
+    .content h1{
+        font-size: 3.5rem;
+        font-weight: 800;
+    }
+    .content p{
+        width: 100%;
+        height: auto;
+    }
+    .about-us{
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        margin-top: 30px;
     }
 }
